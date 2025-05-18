@@ -31,12 +31,11 @@ nav a {
     padding-left: 10px;
     padding-right: 10px;
 }
-
-section {
+#servicios {
     margin: auto;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
     width: fit-content;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -45,11 +44,23 @@ section {
     background-color: orangered;
     padding: 30px;
 }
+ul {
+    border: 5px solid black;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 30px;
+    width: fit-content;
+    height: fit-content;
+}
 .imagenes {
     margin: auto;
     display: flex;
     flex-direction: column;
-    margin: 15px;
+    margin: 20px;
     border: solid 5px white;
     width: fit-content;
     height: fit-content;
@@ -60,13 +71,33 @@ section {
 }
 img {
     margin: auto;
-    width: 500px;
+    width: 1000px;
 }
+#textos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 15px;
+    background-color: orangered;
+    border: solid 5px black;
+}
+#textos div {
+    width: fit-content;
+    margin: auto;
+    margin: 15px;
+    border: solid 5px black;
+    color: white;
+    padding: 10px;
+}
+
 footer {
     margin: auto;
     display: flex;
     text-align: center;
     width: fit-content;
+    margin-top: 20px;
     padding: 10px 20px;
     color: white;
     background-color: orangered;
